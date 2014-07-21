@@ -18,7 +18,7 @@ public class Example_03
     return number > 1 &&
         IntStream
             .range(2, number - 1)
-            .noneMatch(value -> number % value == 0);
+            .noneMatch((value) -> number % value == 0);
   }
 
   /**
